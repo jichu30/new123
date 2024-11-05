@@ -1,0 +1,121 @@
+.sectionfive{
+    height: 130vh;
+    background-color: #555555;
+}
+
+.divprojects{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.projectsh2{
+    display: flex;
+    align-self: flex-start;
+    column-gap: 0.5rem;
+    margin-top: 4rem;
+    align-items: center;
+    width: 92%;
+    color: #ffbd59;
+   font-size: 20px;
+   font-family: "Rubik Mono One", serif;
+    font-weight: 400;
+}
+
+.projectsh2::before, .projectsh2::after{
+    content: "";
+    height: 2px;
+    background-color: black;
+    display: block;
+    flex-grow: 1;
+}
+
+.project1pic, .project2pic{
+    width: 80%;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.bigdivprojects{
+    display: flex;
+    margin-left: 110px;
+    grid-gap: 15rem;
+    margin-top: 130px;  
+    cursor: pointer; 
+}
+
+.ps5{
+    margin-right: 20%;
+    font-family: "Rubik", sans-serif;
+    font-weight: 10;
+    font-size: 14px;
+}
+
+.phonecallpic{
+    width: 15%;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.phonecalldiv{
+    display: flex;
+    margin-bottom: 15px;
+    font-size: 20px;
+
+}
+
+footer{
+    background-color: #333333;
+    height: auto;
+    width: 100%;
+    padding-top: 15px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;   
+    margin-top: 100px;
+}
+
+
+
+.footercontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 12px;
+}
+
+
+
+.footercontent h3{
+    font-size: 30px;
+    font-family: "Rubik Mono One", serif;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.footercontent span{
+    color: #ffbd59;
+}
+
+.footerbottom{
+    background-color: #555555;
+    width: 100%;
+    padding: 9px 0;
+    text-align: center;
+    
+}
+
+.footerbottom{
+    font-size: 15px;
+}
+
+.footerbottom span{
+    font-weight: 20;
+}
+
+
+
+
+

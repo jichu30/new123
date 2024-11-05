@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    box-sizing: border-box;
+    text-decoration: none; 
+}
+
+.section_street {
+    background-image: url(img/ssss.jpg);
+    height: 130vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    background-color: #333333;
+    padding-left: 15px;
+    padding-right: 50px;
+    height: 50px;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 20px;
+    font-family: "Rubik Mono One", serif;
+    font-weight: 400;
+    padding-top: 13px;
+    margin-left: 14px;
+}
+
+.navul {
+    list-style-type: none; 
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    margin-left: 50px;
+    
+}
+
+.homee, .aboutme {
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.homee, .aboutme, .igmfacebook1, .imginstagram, .vertical {
+    display: inline-block;
+    padding-top: 15px;
+    
+}
+
+.vertical {
+    margin-right: 20px;
+}
+
+.ig, .fb {
+    width: 20px; 
+}
+
+.igmfacebook1, .imginstagram {
+    margin-right: 10px;
+}
+
+.dot {
+    color: #ffbd59;
+}
+
+li a {
+    text-decoration: none;    
+}
+
+.portfolio {
+    font-size: 30px;
+    font-family: "Rubik Mono One", serif;
+    font-weight: 400;
+    color: #ffbd59;
+    padding-left: 27px;
+    padding-top: 20px;
+    width: 253px;
+}
+

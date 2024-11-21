@@ -1,4 +1,4 @@
-.sectiontwo {
+#sectiontwo {
     height: 110vh;
     background-color: #333333;
 }
@@ -10,8 +10,34 @@
     flex-wrap: wrap; /* Allow elements to wrap on smaller screens */
 }
 
+.divaboutme{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutmeh2 {
+    display: flex;
+    align-self: flex-start;
+    column-gap: 0.5rem;
+    margin-top: 4rem;
+    align-items: center;
+    width: 92%;
+    font-family: "Rubik Mono One", serif;
+    font-size: 20px;
+    color: #ffbd59;
+}
+
+.aboutmeh2::before, .aboutmeh2::after {
+    content: "";
+    height: 2px;
+    background-color: black;
+    display: block;
+    flex-grow: 1;
+}
+
 .detailss2 {
-    padding-top: 20%;
+    padding-top: 140px;
     margin-right: 20px;
     margin-left: 110px;
     margin-bottom: 200px;
@@ -20,7 +46,14 @@
 
 .s2details2 {
     display: flex;
-    font-size: 90%;
+    font-size: 20px;
+}
+
+.s2detailspart2{
+    font-family: "Rubik Mono One", serif;
+    margin-top: 10px;
+    font-size: 20px;
+   
 }
 
 .imandreis2, .jyzals2, .aclubas2 {
@@ -41,18 +74,8 @@
     margin-top: 20px;
     margin-bottom: 20px;
     font-family: "Rubik", sans-serif;
+    font-size: 17px;
 }
-
-.learns2 {
-    font-family: "Rubik", sans-serif;
-    padding: 10px 20px;
-    background-color: #555555;
-    font-weight: bold;
-    display: inline-block;
-    margin: 30px 0;
-    border-radius: 5px;
-}
-
 .imgandreis2 {
     flex: 1;
     display: flex;
@@ -62,7 +85,6 @@
 .imgandreis21 {
     max-width: 100%;
     height: 600px;
-    margin-top: 96px;
     margin-right: 90px;
     cursor: pointer;
 }

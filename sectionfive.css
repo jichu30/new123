@@ -114,7 +114,73 @@ footer{
 .footerbottom span{
     font-weight: 20;
 }
+@media (max-width: 480px) {
+    #sectionfive {
+        padding: 15px; /* Added padding for better spacing on mobile */
+    }
 
+    .projectsh2 {
+        font-size: 18px; /* Reduced font size for project heading */
+        margin-top: 2rem;
+        text-align: center; /* Center the heading on mobile */
+    }
+
+    .bigdivprojects {
+        display: flex;
+        flex-direction: column; /* Stack project images vertically */
+        gap: 1rem; /* Reduced space between items */
+        margin-left: 50px;
+        padding: 0;
+        margin-top: 1.5rem;
+    }
+
+    .project1pic, .project2pic {
+        width: 90%; /* Make project images take up more width on mobile */
+        height: 200px; /* Adjust height for better fit */
+        margin-bottom: 1rem;
+    }
+
+    .ps5 {
+        font-size: 14px; /* Reduced font size */
+        text-align: center; /* Center align text */
+        padding-left: 40px;
+    }
+
+    .phonecallpic {
+        width: 25%; /* Slightly larger phone call image */
+        height: 17px;
+    }
+
+    .phonecalldiv {
+        font-size: 16px; /* Reduced font size */
+        margin-bottom: 10px; /* Reduced margin */
+        text-align: center; /* Center phone call icon and text */
+    }
+
+    footer {
+        padding: 12px; /* Padding for mobile */
+        width: 100%;
+    }
+
+    .footercontent h3 {
+        font-size: 22px; /* Smaller title font for mobile */
+        margin-left: 0; /* Remove margin-left */
+        margin-bottom: 10px;
+    }
+
+    .footercontent span {
+        font-size: 14px; /* Adjust span font size for mobile */
+    }
+
+    .footerbottom {
+        font-size: 12px; 
+        width: 100%;
+    }
+
+    .footerbottom span {
+        font-size: 14px; /* Adjust span font size */
+    }
+}
 
 
 

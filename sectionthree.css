@@ -86,6 +86,53 @@
     }
 }
 
+@media (max-width: 480px) {
+    #sectionthree {
+        padding: 15px;
+        height: auto;
+    }
+
+    .bigdivs3 {
+        flex-direction: column; /* Stack the divs vertically */
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    .skillsh2 {
+        font-size: 16px; /* Reduced font size */
+        width: 90%; /* Adjust width on mobile */
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .skills {
+        padding: 0 25px;
+        max-width: 100%; /* Full width */
+        margin-top: 3px;
+    }
+
+    .skillname {
+        font-size: 16px; /* Reduce font size */
+        margin: 15px 0;
+        text-align: center;
+    }
+
+    .skillbar {
+        height: 15px; /* Reduce height for mobile */
+        margin-bottom: 10px;
+    }
+
+    .skillper {
+        height: 15px; /* Reduce height for mobile */
+    }
+
+    .skillper::before {
+        font-size: 12px; /* Smaller font for mobile */
+    }
+}
+
 
 
 

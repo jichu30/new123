@@ -113,3 +113,61 @@ li a {
     width: 253px;
 }
 
+@media (max-width: 480px) {
+    
+    .navbar {
+        flex-direction: column; /* Stack navbar items vertically */
+        height: auto;
+        padding: 10px;
+    }
+
+    .logo {
+        font-size: 15px;
+        padding-top: 14px;
+    }
+
+    .navul {
+        display: block;
+        margin-left: 0;
+    }
+
+    .navul li {
+        margin-right: 9px;
+        margin-bottom: 12px; /* Space out items vertically */
+        font-size: 11px;
+    }
+
+    .portfolio {
+        font-size: 22px;
+        padding-left: 20px;
+        padding-top: 120px;
+        width: 100%;
+    }
+
+    .aboutme, .igmfacebook1, .imginstagram, .vertical {
+        margin-right: 0;
+        padding-top: 10px;
+    }
+
+    .vertical {
+        margin-right: 0;
+        padding-top: 12px;
+    }
+
+    .ig, .fb {
+        width: 22px;
+        padding-top: 8px;
+    }
+
+    .logo:hover {
+        transform: scale(1.05);
+    }
+
+    .aboutme:hover {
+        transform: scale(1.1);
+    }
+
+    .ig:hover, .fb:hover {
+        transform: scale(1.1);
+    }
+}

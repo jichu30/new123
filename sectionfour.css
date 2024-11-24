@@ -73,6 +73,46 @@
     margin-left: 40px;
 }
 
+@media (max-width: 480px) {
+    #sectionfour {
+        padding: 15px; /* Add padding for better spacing on mobile */
+    }
+
+    .hobbiesh2 {
+        font-size: 16px; /* Font size for mobile */
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .bigdivhobbies {
+        display: flex;
+        flex-direction: column; /* Stack the hobby boxes vertically */
+        gap: 1.5rem; /* Adjust space between items */
+        padding: 0rem 10px;
+    }
+
+    .hobbiesbox {
+        width: 80%; /* Make each box take up more width on mobile */
+        max-width: none; /* Allow boxes to stretch */
+        margin: 0 auto; /* Center each box */
+    }
+
+    .hobbiestitle {
+        font-size: 14px; /* Adjust title font size */
+    }
+
+    .titles4, .sleepings4, .moviess4, .gamings4 {
+        font-size: 14px; /* Adjust font size for mobile */
+        margin-top: 1px; /* Reduced margin */
+    }
+
+    .ps4 {
+        font-size: 9px; /* Smaller font for PS4 */
+        padding-right: 39px;
+        text-align: center;
+    }
+}
+
 
 
 

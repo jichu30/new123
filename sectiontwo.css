@@ -89,3 +89,64 @@
     cursor: pointer;
 }
 
+@media (max-width: 480px) {
+    #sectiontwo {
+        padding: 10px;
+        height: auto;
+    }
+
+    .sectiontwodiv {
+        flex-direction: column; /* Stack content vertically */
+        align-items: center;
+    }
+
+    .aboutmeh2 {
+        font-size: 16px; /* Adjust font size */
+        margin-top: 2rem;
+        width: 90%; /* Narrow the width on mobile */
+        text-align: center;
+    }
+
+    .detailss2 {
+        padding-top: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 40px;
+    }
+
+    .s2details2 {
+        font-size: 14px; /* Reduce font size */
+        flex-direction: column; /* Stack elements */
+        align-items: center;
+        text-align: center;
+    }
+
+    .s2detailspart2 {
+        font-size: 18px;
+        text-align: center;
+        
+    }
+
+    .imandreis2{
+        margin-right: 60px;
+    }
+
+    .imgandreis21 {
+        height: auto;
+        max-width: 90%; /* Make the image more responsive */
+        margin-right: 140px;
+    .lorems2 {
+        font-size: 16px; /* Reduce font size */
+        text-align: center;
+    }
+
+    .acclubas2 {
+        font-size: 16px; /* Smaller font size */
+        text-align: center;
+    }
+
+    .jyzals2 {
+        margin-left: 0;
+        text-align: center;
+    }
+}

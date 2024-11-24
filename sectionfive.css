@@ -210,6 +210,53 @@ footer{
     
 }
 
+@media (max-width: 1920px) {
+    #sectionfive{
+        height: 86vh;
+    }
+
+    .projectsh2{
+        font-size: 40px; /* Increased font size for better visibility */
+        margin-top: 3rem; /* Adjusted spacing for titles */
+    }
+
+    .bigdivprojects{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 items per row */
+        grid-gap: 2rem;
+        margin-left: 0;
+        margin-top: 100px;
+        justify-items: center; 
+    }
+
+    .project1pic, .project2pic{
+        width: 90%; /* Make images fully responsive */
+        height: 500px; /* Adjust image height for better scaling */
+    }
+
+    .ps5{
+        font-size: 20px; 
+        padding-left: 200px;
+        
+    }
+
+    footer{
+    width: 100%;
+    }
+
+    .footercontent h3{
+        font-size: 26px; /* Adjusted font size for header */
+    }
+
+    .footerbottom{
+        font-size: 14px;
+        width: 100%; /* Adjusted footer text size */
+    }
+    .project1pic{
+        margin-left: 100px;
+    }
+}
+
     
 
 

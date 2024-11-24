@@ -152,3 +152,48 @@
         height: 40px;
     }
 }
+
+@media (max-width: 1920px) {
+    #sectionfour {
+        padding: 1rem 1rem; /* Increased padding for large screens */
+    }
+
+    .hobbiesh2 {
+        font-size: 40px; /* Larger font for the section title */
+        margin-bottom: 4rem;
+        text-align: center;
+    }
+   
+
+    .bigdivhobbies {
+        display: grid;
+        grid-template-columns: repeat(1); /* 4 columns for large screens */
+        gap: 10rem;
+        padding: 10rem 15rem; /* Adjusted padding */
+    }
+
+    .hobbiesbox {
+        width: 85%; /* Increased width for items */
+        max-width: none;
+        margin: 0 auto;
+    }
+
+    .hobbiestitle {
+        font-size: 40px; /* Larger font size */
+    }
+
+    .titles4, .sleepings4, .moviess4, .gamings4 {
+        font-size: 35px; /* Adjusted font size for larger screens */
+        padding-top: 15px;
+    }
+
+    .ps4 {
+        font-size: 20px; /* Larger font size for small text */
+        padding-right: 50px;
+        text-align: center;
+    }
+    .imgeatingpic, .imggamingpic, .imgmoviespic, .imgsleepingpic{
+        height: 160px;
+    }
+
+}

@@ -243,13 +243,28 @@ li a {
     }
 
     .ig, .fb{
-        height: 35px;
-        width: 30px;
+        height: 50px;
+        width: 50px;
     }
+    
 
     .portfolio{
         font-size: 75px;
         padding-top: 120px;
     }
+    .ig, .fb{
+        transition: 0.5s;
+    }
+    .ig:hover{
+        transform: scale(1.5);
+    }
+    .fb:hover{
+        transform: scale(1.5);
+    }
+
+    
+
+    
+
 
 }

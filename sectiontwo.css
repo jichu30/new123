@@ -221,6 +221,39 @@
     }
 }
 
+@media (min-width: 1920px) and (max-width: 1920px){
+
+    .aboutmeh2{
+        font-size: 40px;
+    }
+
+    .s2details2{
+        font-size: 60px;
+        align-items: center;
+        text-align: center;
+    }
+    .imandreis2{
+        padding-right: 230px;
+    }
+    .aclubas2{
+        font-size: 100px;
+    }
+
+    .s2detailspart2{
+        font-size: 40px;
+        padding-top: 20px;
+    }
+
+    .lorems2{
+        font-size: 25px;
+        padding-top: 30px;
+    }
+
+    .imgandreis2{
+        padding-right: 200px;
+    }
+    
+}
 
 
 

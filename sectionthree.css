@@ -167,6 +167,36 @@
     }
 }
 
+@media (min-width: 1920px) and (max-width: 1920px) {
+    #sectionthree {
+        height: 110vh; /* Maintain section height */
+    }
+
+    .skillsh2 {
+        font-size: 22px;  /* Slightly larger font size for better readability on big screens */
+    }
+
+    .skills {
+        max-width: 1300px; /* Increase max-width for larger screens */
+    }
+
+    .skillname {
+        font-size: 22px;  /* Increase font size for better visibility */
+    }
+
+    .skillbar {
+        height: 25px;  /* Increase height of skill bars for larger screens */
+    }
+
+    .skillper {
+        height: 25px;  /* Increase skill progress bar height */
+    }
+
+    .skillper::before {
+        font-size: 16px;  /* Increase font size for percentage labels */
+    }
+}
+
 
 
 

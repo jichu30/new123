@@ -113,10 +113,14 @@ li a {
     width: 253px;
 }
 
-@media (max-width: 480px) {
+@media (min-width: 480px) {
+
+    #section_street{
+        height: 80vh;
+    }
     
     .navbar {
-        flex-direction: column; /* Stack navbar items vertically */
+        flex-direction: column; 
         height: auto;
         padding: 10px;
     }
@@ -133,14 +137,14 @@ li a {
 
     .navul li {
         margin-right: 9px;
-        margin-bottom: 12px; /* Space out items vertically */
+        margin-bottom: 12px; 
         font-size: 11px;
     }
 
     .portfolio {
-        font-size: 22px;
-        padding-left: 20px;
-        padding-top: 120px;
+        font-size: 25px;
+        padding-left: 19px;
+        padding-top: 90px;
         width: 100%;
     }
 
@@ -169,5 +173,56 @@ li a {
 
     .ig:hover, .fb:hover {
         transform: scale(1.1);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    #section_street {
+        height: 85vh;  
+    }
+
+    .navbar {
+        padding-left: 15px;
+        padding-right: 20px;
+        height: 70px; 
+    }
+
+    .logo {
+        font-size: 20px;  
+        margin-left: 10px;
+    }
+   
+    .navul {
+        margin-left: 30px; 
+    }
+
+     .portfolio {
+        font-size: 30px; 
+        padding-left: px;
+        padding-top: 90px;
+        width: 100%;  
+    }
+
+    .navdiv {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    
+    .vertical {
+        padding-top: 14px;
+        margin-right: 8px;
+    }
+
+    .igmfacebook1, .imginstagram {
+        margin-right: 8px;
+    }
+
+    .ig, .fb {
+        width: 20px;  
+    }
+    .aboutme  {
+        margin-right: 30px;
     }
 }

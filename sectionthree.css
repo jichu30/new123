@@ -86,14 +86,14 @@
     }
 }
 
-@media (max-width: 480px) {
+@media  (min-width:480px){
     #sectionthree {
         padding: 15px;
         height: auto;
     }
 
     .bigdivs3 {
-        flex-direction: column; /* Stack the divs vertically */
+        flex-direction: column; 
         align-items: center;
         justify-content: center;
 
@@ -101,35 +101,69 @@
     }
 
     .skillsh2 {
-        font-size: 16px; /* Reduced font size */
-        width: 90%; /* Adjust width on mobile */
+        font-size: 16px; 
+        width: 90%; 
         margin-top: 1rem;
         text-align: center;
     }
 
     .skills {
         padding: 0 25px;
-        max-width: 100%; /* Full width */
-        margin-top: 3px;
+        max-width: 100%; 
+        margin-bottom: 3rem;
     }
 
     .skillname {
-        font-size: 16px; /* Reduce font size */
+        font-size: 16px; 
         margin: 15px 0;
         text-align: center;
     }
 
     .skillbar {
-        height: 15px; /* Reduce height for mobile */
+        height: 15px; 
         margin-bottom: 10px;
     }
 
     .skillper {
-        height: 15px; /* Reduce height for mobile */
+        height: 15px; 
     }
 
     .skillper::before {
-        font-size: 12px; /* Smaller font for mobile */
+        font-size: 12px; 
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #sectionthree {
+        height: 80vh;
+    }
+
+    .skillsh2 {
+        font-size: 22px;
+        margin-top: 3rem;
+    }
+
+    .skills {
+        padding: 0 20px;
+        margin-top: 20px;
+    }
+
+    .skillname {
+        font-size: 18px;
+        margin: 20px 0;
+    }
+
+    .skillbar {
+        height: 18px;
+    }
+
+    .skillper {
+        height: 18px;
+    }
+
+    .skillper::before {
+        font-size: 14px;
+        padding: 2px 4px;
     }
 }
 

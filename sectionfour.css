@@ -73,51 +73,82 @@
     margin-left: 40px;
 }
 
-@media (max-width: 480px) {
+@media (min-width: 480px) {
     #sectionfour {
-        padding: 15px; /* Add padding for better spacing on mobile */
+        padding: 15px; 
     }
 
     .hobbiesh2 {
-        font-size: 16px; /* Font size for mobile */
+        font-size: 16px; 
         margin-top: 2rem;
         text-align: center;
     }
 
     .bigdivhobbies {
         display: flex;
-        flex-direction: column; /* Stack the hobby boxes vertically */
-        gap: 1.5rem; /* Adjust space between items */
+        flex-direction: column; 
+        gap: 1.5rem; 
         padding: 0rem 10px;
     }
 
     .hobbiesbox {
-        width: 80%; /* Make each box take up more width on mobile */
-        max-width: none; /* Allow boxes to stretch */
-        margin: 0 auto; /* Center each box */
+        width: 80%; 
+        max-width: none; 
+        margin: 0 auto; 
     }
 
     .hobbiestitle {
-        font-size: 14px; /* Adjust title font size */
+        font-size: 14px; 
     }
 
     .titles4, .sleepings4, .moviess4, .gamings4 {
-        font-size: 14px; /* Adjust font size for mobile */
-        margin-top: 1px; /* Reduced margin */
+        font-size: 14px; 
+        margin-top: 1px; 
     }
 
     .ps4 {
-        font-size: 9px; /* Smaller font for PS4 */
+        font-size: 9px; 
         padding-right: 39px;
         text-align: center;
     }
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+    #sectionfour {
+        height: 120vh; /* Adjust height on medium screens */
+    }
 
+    .hobbiesh2 {
+        font-size: 22px;
+        margin-top: 3rem;
+    }
 
+    .bigdivhobbies {
+        grid-template-columns: repeat(2, 1fr); /* Keep two columns on tablet */
+        grid-template-rows: repeat(2, auto); /* Ensure there are two rows */
+        padding: 1rem 20px;
+    }
 
+    .hobbiesbox {
+        width: 100%; /* Ensure items take up 100% of their grid cell */
+        margin-bottom: rem; /* Add space between items */
+    }
 
+    .hobbiestitle {
+        font-size: 12px;
+    }
 
+    .titles4, .sleepings4, .moviess4, .gamings4 {
+        margin-top: 10px;
+        font-size: 18px;
+    }
 
+    .ps4 {
+        font-size: 15px;
+        margin-left: 30px;
+    }
 
-
+    .imgeatingpic, .imgsleepingpic, .imggamingpic, .imgmoviespic {
+        height: 40px;
+    }
+}

@@ -115,7 +115,9 @@ footer{
     font-weight: 20;
 }
 @media (min-width: 480px) {
-    
+    #sectionfive{
+        height: 110vh;
+    }
 
     .projectsh2 {
         font-size: 18px; 
@@ -171,8 +173,8 @@ footer{
 
     .footerbottom {
         font-size: 12px; 
-        width: 700px;
-        height: auto;
+        width: 100%;
+        
     }
 
     .footerbottom span {
@@ -184,7 +186,7 @@ footer{
 @media (min-width: 768px) and (max-width: 1024px) {
 
     #sectionfive {
-        height: 120vh; 
+        height: 95vh; 
     }
 
     .projectsh2 {
@@ -210,19 +212,19 @@ footer{
     
 }
 
-@media (max-width: 1920px) {
+@media (max-width: 1920px) and (min-width: 1920px) {
     #sectionfive{
         height: 86vh;
     }
 
     .projectsh2{
-        font-size: 40px; /* Increased font size for better visibility */
-        margin-top: 3rem; /* Adjusted spacing for titles */
+        font-size: 40px; 
+        margin-top: 3rem; 
     }
 
     .bigdivprojects{
         display: grid;
-        grid-template-columns: repeat(2, 1fr); /* 2 items per row */
+        grid-template-columns: repeat(2, 1fr); 
         grid-gap: 2rem;
         margin-left: 0;
         margin-top: 100px;
@@ -230,8 +232,8 @@ footer{
     }
 
     .project1pic, .project2pic{
-        width: 90%; /* Make images fully responsive */
-        height: 500px; /* Adjust image height for better scaling */
+        width: 90%; 
+        height: 500px; 
     }
 
     .ps5{
@@ -245,12 +247,12 @@ footer{
     }
 
     .footercontent h3{
-        font-size: 26px; /* Adjusted font size for header */
+        font-size: 26px; 
     }
 
     .footerbottom{
         font-size: 14px;
-        width: 100%; /* Adjusted footer text size */
+        width: 100%; 
     }
     .project1pic{
         margin-left: 100px;

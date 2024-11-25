@@ -169,34 +169,34 @@
 
 @media (min-width: 1920px) and (max-width: 1920px) {
     #sectionthree {
-        height: 110vh; /* Maintain section height */
+        height: 110vh; 
     }
 
     .skillsh2 {
-        font-size: 40px;  /* Slightly larger font size for better readability on big screens */
+        font-size: 40px;  
     }
 
     .skills {
-        max-width: 1800px; /* Increase max-width for larger screens */
+        max-width: 1800px;
     }
 
     .skillname {
-        font-size: 35px;  /* Increase font size for better visibility */
+        font-size: 35px;  
         padding-top: 30px;
 
     }
 
     .skillbar {
-        height: 30px;  /* Increase height of skill bars for larger screens */
+        height: 30px;
         margin-top: 55px;
     }
 
     .skillper {
-        height: 30px;  /* Increase skill progress bar height */
+        height: 30px; 
     }
 
     .skillper::before {
-        font-size: 16px;  /* Increase font size for percentage labels */
+        font-size: 16px; 
     }
 }
 
